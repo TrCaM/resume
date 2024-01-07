@@ -1,0 +1,34 @@
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{bbding}
+\usepackage{import}
+\usepackage{emoji}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{soul}
+\usepackage[none]{hyphenat} % no word breaks 
+
+\setemojifont{TwemojiMozilla}
+
+\pagestyle{empty}
+\geometry{margin=0.55in}
+\setlength\parindent{9pt}
+\setlist{nosep}
+\renewcommand\labelitemi{--}
+
+\definecolor{highlight}{RGB}{0,0,0}
+
+\newcommand{\github}{\textcolor{rgb:red,110;green,84;blue,148}{\faGithubSquare}}
+\newcommand{\linkedin}{\textcolor{rgb:red,6;green,108;blue,170}{\faLinkedinSquare}}
+\newcommand{\name}[1]{\begin{center}\section*{\LARGE \color{highlight} #1}\vspace{-0.8cm}\end{center}}
+\newcommand{\topinfo}[1]{\begin{center}\vspace{-0.1cm}#1\vspace{-0.3cm}\end{center}}
+\newcommand{\resumesection}[1]{\vspace{-0.5cm}\section*{\Large \color{highlight}#1}\vspace{-0.31cm}\hrule\vspace{0.15cm}}
+\newcommand{\resumesectionn}[1]{\vspace{-0.5cm}\section*{\Large \color{highlight}#1}\vspace{-0.2cm}\hrule\vspace{0.15cm}}
+
+\renewcommand{\familydefault}{\sfdefault}
